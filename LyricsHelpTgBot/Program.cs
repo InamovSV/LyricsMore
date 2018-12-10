@@ -37,7 +37,7 @@ namespace LyricsHelpTgBot
                 case "/hello":
                     await Bot.SendTextMessageAsync(
                         message.Chat.Id,
-                        "Hello, " + message.From.Username);
+                        "Hello, " + message.From.Username+"!");
                     break;
                 default:
 
