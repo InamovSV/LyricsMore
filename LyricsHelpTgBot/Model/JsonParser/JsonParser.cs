@@ -12,8 +12,7 @@ namespace LyricsHelpTgBot.Model.JsonParser
     {
         public static Response.Response Deserialize(string json)
         {
-            Response.Response tmp = JsonConvert.DeserializeObject<Response.Response>(json);
-            return tmp;
+            return JsonConvert.DeserializeObject<Response.Response>(json);
         }
     }
 }
