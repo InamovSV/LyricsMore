@@ -51,6 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\JsonParser\JsonParser.cs" />
+    <Compile Include="Model\Response\Body.cs" />
+    <Compile Include="Model\Response\Header.cs" />
+    <Compile Include="Model\Response\Lyrics.cs" />
+    <Compile Include="Model\Response\Message.cs" />
+    <Compile Include="Model\Response\Response.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
